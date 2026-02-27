@@ -1,7 +1,7 @@
 import { Routes, Route } from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
 import PrivateRoute from "../components/PrivateRoute";
-import Login from "../components/login";
+import Login from "../components/Login";
 import Register from "../components/Register";
 import CredentialList from "../components/CredentialList";
 import CredentialForm from "../components/CredentialForm";
