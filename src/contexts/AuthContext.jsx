@@ -2,7 +2,7 @@ import React, { createContext, useState, useContext } from "react";
 
 const AuthContext = createContext();
 
-const API_URL = "http://localhost:3000";
+const API_URL = "https://credentials-manager-backend.onrender.com";
 
 export const useAuth = () => {
   const context = useContext(AuthContext);
