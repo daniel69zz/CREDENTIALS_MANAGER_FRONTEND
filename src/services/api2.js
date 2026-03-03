@@ -1,4 +1,4 @@
-const API_URL = "https://credentials-manager-backend.onrender.com";
+const API_URL = "http://144.22.43.169:3000";
 
 const getToken = () => localStorage.getItem("token");
 
